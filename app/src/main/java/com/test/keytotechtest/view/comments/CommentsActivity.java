@@ -107,7 +107,7 @@ public class CommentsActivity extends AppCompatActivity {
     }
 
     private void showErrorMessage() {
-        Toast.makeText(this, "Server connection error", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, getResources().getString(R.string.error_server_connection), Toast.LENGTH_SHORT).show();
     }
 
     private void getIndexValue() {

@@ -42,29 +42,29 @@ public class MainActivity extends AppCompatActivity {
         if(!editFieldStart.getText().toString().equals("")){
             startNumber = Integer.valueOf(editFieldStart.getText().toString());
         }else{
-            editFieldStart.setError("Please enter start index!");
+            editFieldStart.setError(getResources().getString(R.string.edit_eror_start_index));
             return false;
         }
 
         if(!editFieldEnd.getText().toString().equals("")){
             endNumber = Integer.valueOf(editFieldEnd.getText().toString());
         }else{
-            editFieldEnd.setError("Please enter end index!");
+            editFieldEnd.setError(getResources().getString(R.string.edit_error_end_index));
             return false;
         }
 
         if(startNumber < 0){
-            editFieldStart.setError("Index must be >=0");
+            editFieldStart.setError(getResources().getString(R.string.edit_error_must_be_positive));
             return false;
         }
 
         if(endNumber < 0){
-            editFieldEnd.setError("Index must be >=0");
+            editFieldEnd.setError(getResources().getString(R.string.edit_error_must_be_positive));
             return false;
         }
 
         if(startNumber == endNumber){
-            editFieldEnd.setError("The indices must be different");
+            editFieldEnd.setError(getResources().getString(R.string.edit_error_must_be_different));
             return false;
         }
         return true;

@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">KeyToTechTest</string>
     <string name="buttonText">Continue</string>
+    <string name="edit_eror_start_index">Please enter start index!</string>
+    <string name="edit_error_end_index">Please enter end index!</string>
+    <string name="edit_error_must_be_positive"><![CDATA[Index must be >=0]]></string>
+    <string name="edit_error_must_be_different">The indices must be different</string>
+    <string name="error_server_connection">Server connection error</string>
 </resources>
