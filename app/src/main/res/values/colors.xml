@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01FDAE</color>
+    <color name="colorPrimaryDark">#009467</color>
+    <color name="colorAccent">#1BBCD8</color>
+
+    <color name="colorCard">#BBBBBB</color>
+    <color name="colorButton">#01FDAE</color>
+    <color name="colorButtonSelected">#01CF8F</color>
+    <color name="colorEditHint">#979797</color>
+    <color name="colorTextEmail">#4B4B4B</color>
+</resources>

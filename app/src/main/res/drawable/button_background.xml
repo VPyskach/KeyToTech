@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- An white rectangle ripple. -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/colorButton"> <!-- ripple effect color -->
+    <item android:id="@android:id/background">
+        <shape
+            android:shape="rectangle" android:padding="15dp">
+            <solid android:color="@color/colorButtonSelected"/>
+            <corners
+                android:bottomRightRadius="3dp"
+                android:bottomLeftRadius="3dp"
+                android:topLeftRadius="3dp"
+                android:topRightRadius="3dp"/>
+        </shape>
+    </item>
+</ripple>
